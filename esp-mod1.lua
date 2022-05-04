@@ -294,7 +294,7 @@ function ESP:Add(obj, options)
     })
     box.Components["Name"] = Draw("Text", {
 		Text = box.Name,
-        	Font = 2,
+        	Font = 3,
 		Color = box.Color,
 		Center = true,
 		Outline = true,
@@ -303,7 +303,7 @@ function ESP:Add(obj, options)
 	})
 	box.Components["Distance"] = Draw("Text", {
 		Color = box.Color,
-        	Font = 2,
+        	Font = 3,
 		Center = true,
 		Outline = true,
         Size = 15,
